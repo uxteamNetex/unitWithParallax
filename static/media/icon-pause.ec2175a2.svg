@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="250"
+    viewBox="0 0 250 250">
+    <defs>
+        <style>
+            .a {
+                fill: none;
+            }
+
+            .b {
+                clip-path: url(#a);
+            }
+        </style>
+        <clipPath id="a">
+            <rect class="a" width="250" height="250" />
+        </clipPath>
+    </defs>
+    <g class="b">
+        <path fill="#fff" d="M367,195V-5h44V195Zm-88,0V-5h44V195Z" transform="translate(-220 30)" />
+    </g>
+</svg>

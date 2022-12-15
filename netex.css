@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  box-sizing: inherit;
+  align-content: start;
+}
+body{
+  font-family: 'LatoWeb', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  word-break: break-word;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+strong {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+pre {
+  white-space: normal;
+}
+ol, ul{
+  padding-left: 40px;
+}
+ol{
+  list-style-type: decimal;
+}
+ul{
+  list-style-type: disc;
+}
+ul li,
+ol li {
+  display: list-item;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre {
+  white-space: pre-wrap;
+}
+
+p:empty::before,
+h1:empty::before,
+h2:empty::before,
+h3:empty::before,
+h4:empty::before,
+h5:empty::before,
+h6:empty::before,
+blockquote:empty::before,
+pre:empty::before {
+  content: "\00a0 ";
+}
+
+button{
+  background-color: transparent;
+  padding: 0;
+}
